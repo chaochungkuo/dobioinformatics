@@ -1,0 +1,15 @@
+[project]
+authors = ["Joseph Kuo <chao-chung.kuo@rwth-aachen.de>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "decoupler"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+scanpy = ">=1.10.2,<2"
+decoupler-py = ">=1.8.0,<2"
+ipython = ">=8.27.0,<9"
+ipykernel = ">=6.29.5,<7"
